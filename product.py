@@ -1,14 +1,13 @@
 def product_details(product_id, name, quantity, price):
-    result = (
+    return (
         f"Product ID   : {product_id}\n"
         f"Product Name : {name}\n"
         f"Quantity     : {quantity}\n"
         f"Price        : {price}\n"
     )
-    return result
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     product_id = "P101"
     name = "Mouse"
     quantity = 10
